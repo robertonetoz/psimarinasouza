@@ -15,6 +15,7 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://psimarinasouza.vercel.app"),
   title: "Psicóloga Marina Souza | Psicoterapia online para mulheres",
   description:
     "Psicoterapia online especializada para mulheres jovens e adultas. Marina Souza, psicóloga em Uberlândia – MG, CRP 04/37760. Agende pelo WhatsApp (34) 99880-6090.",
@@ -32,7 +33,11 @@ export const metadata: Metadata = {
     description: "Psicoterapia online especializada para mulheres jovens e adultas.",
     locale: "pt_BR",
     type: "website",
-    images: ["/logo-full.png"],
+    siteName: "Psicóloga Marina Souza",
+    url: "/",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
